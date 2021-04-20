@@ -1,5 +1,5 @@
-.*
+
 !/.gitignore
 data/large_files/
-asclep_venv
+asclep_venv/
 
