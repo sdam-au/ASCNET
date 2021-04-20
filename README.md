@@ -1,16 +1,15 @@
-# Meaningful title for the repository
-*pick type of repository (TOOL, ETL, ANALYSIS, ADMIN)*
+# The Roman cult of Asclepius and the Antonine's Plague
+*ANALYSIS*
 
 ---
 
 ## Purpose
-[In two to three sentences state the purpose of this repository, ideally tying it to an existing SDAM milestone. E.g., The purpose of this repository is to provide templates for all future SDAM repositories in order to save precious time and maintain high standards and uniformity of our documentation.]
 
 ---
 ## Authors
+* Tomáš Glomb
+* Vojtěch Kaše
 * Petra Hermankova [![](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0002-6349-0540), SDAM project, petra@ancientsocialcomplexity.org
-* [Name], [ORCID], [Institution], [email]
-* [Name], [ORCID], [Institution], [email]
 * [Name], [ORCID], [Institution], [email]
 
 ## License
@@ -23,41 +22,24 @@ CC-BY-SA 4.0, see attached License.md
 [Here will go related articles or other sources we will publish/create]
 
 ---
-# How to use this repository
 
-## Sources and prerequisites
-[Describe the provenance of data used in the scripts contained and clarify how it is harvested and what other prerequisites are required to get the scripts working. In case of pure tool attribute any reused scripts to source, etc., license and specify any prerequisites or technical requirements.]
+---
+## How to use this repository
+
+* download or clone the repository
+* activate the virtual environment (open your command line, move the the repository folder and run `bash ./create_asclep_venv.sh`)
+* in the jupyter notebooks, always check that you are connected to the *asclep_venv* kernel
+* (alternatively, if you do not wish to use the virtual environment, make sure that you have installed all required python packages within the `requirements.txt` file: `pip install -r requiremnts.txt`
 
 ### Data
-Anything else on data metadata and data used. Link to data repository or explanatory article. 
+[EDCS](http://www.manfredclauss.de/) dataset is accessed and transformed by the series of Python and R scripts in [EDCS ETL repository](https://github.com/sdam-au/EDCS_ETL), created by SDAM project. The latest version of the dataset (as JSON file) can be accessed via Sciencedata.dk or at this link: TBA in January [EDCS_public folder](https://sciencedata.dk/shared/1f5f56d09903fe259c0906add8b3a55e). 
+
+[EDH]() dataset is accessed and transformed by the series of Python and R scripts in [EDH ETL repository](https://github.com/sdam-au/EDH_ETL) and in [EDH exploration repository](https://github.com/sdam-au/EDH_exploration), created by SDAM Project. The latest version of the dataset (as JSON file) can be accessed via Sciencedata.dk or at this link: [EDH_public folder](https://sciencedata.dk/shared/b6b6afdb969d378b70929e86e58ad975)
 
 ### Software
-1. Software X, minimum version 123
-1. Software Y, version 456
-
-### Registered account
-1. CompanyA
-1. CompanyB
-
-### Hardware
-1. Multiple-screen
-1. Mouse
-1. Coffee
-
----
-## Installation
-[Describe the steps necessary to install the tool/package; example: https://gist.github.com/PurpleBooth/109311bb0361f32d87a2]
-
----
-## Instructions 
-[Describe first steps, how to use the current repository by a typical user - the digital historian with limited technical skills]
-1. First, do ...
-1. Second, do ...
-1. Third, go to ...
-
-
-## Screenshots
-![Example screenshot](./img/screenshot.png)
+* Python 3
+* Jupyter notebooks app/JupyterLab/JupyterHub
+* Python 3 additional libraries listed `requirements.txt`
 
 
 
