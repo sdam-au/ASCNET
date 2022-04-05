@@ -1,3 +1,6 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6414803.svg)](https://doi.org/10.5281/zenodo.6414803)
+
+
 # The Roman cult of Asclepius and the Antonine's Plague
 ## Purpose
 
