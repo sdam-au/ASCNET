@@ -8,9 +8,9 @@ This repository serves as a supplementary material for the article "Popularity o
 
 ---
 ## Authors
-* Tomáš Glomb
-* Vojtěch Kaše
-* Petra Heřmánková
+* Tomáš Glomb [![](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0001-6862-8409) 
+* Vojtěch Kaše [![](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0002-6601-1605)
+* Petra Heřmánková [![](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0002-6349-0540)
 
 ## License
 CC-BY-SA 4.0, see attached License.md
