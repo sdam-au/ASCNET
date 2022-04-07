@@ -4,17 +4,16 @@
 # The Roman cult of Asclepius and the Antonine's Plague
 ## Purpose
 
-This repository serves as a supplementary material for the article "Popularity of the cult of Asclepius in times of the Antonine Plague: temporal modeling of the epigraphic evidence", currently under review (February 2022). It contains scripts, data and figures. The scripts are in Python 3 programming language and have a form of Jupyter notebooks. All our analyses aim at being fully reproducible and we invite other scholars to reuse our code and data for their analyses. 
+This repository serves as a supplementary material for the article "Popularity of the cult of Asclepius in times of the Antonine Plague: temporal modeling of the epigraphic evidence". It contains scripts, data and figures. The scripts are in Python 3 programming language and have a form of Jupyter notebooks. All our analyses aim at being fully reproducible and we invite other scholars to reuse our code and data for their analyses. 
 
 ---
 ## Authors
-* anonymized
+* Tomáš Glomb
+* Vojtěch Kaše
+* Petra Heřmánková
 
 ## License
 CC-BY-SA 4.0, see attached License.md
-
-## DOI
-[Here will be DOI or some other identifier once we have it]
 
 ---
 ## How to use this repository
